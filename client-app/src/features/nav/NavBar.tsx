@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { Menu, Container, Button } from 'semantic-ui-react';
 import ActivityStore from '../../app/stores/activityStore';
-import { observe } from 'mobx';
 import { observer } from 'mobx-react-lite';
 
 
