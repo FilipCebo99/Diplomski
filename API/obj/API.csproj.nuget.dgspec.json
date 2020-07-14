@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Filip\\Reactivities\\API\\API.csproj": {}
+    "c:\\Users\\Filip\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Filip\\Reactivities\\API\\API.csproj": {
+    "c:\\Users\\Filip\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Filip\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Filip\\Reactivities\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Filip\\Reactivities\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\Reactivities\\API\\obj\\",
+        "outputPath": "c:\\Users\\Filip\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj"
               },
-              "C:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
+    "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\Reactivities\\Application\\obj\\",
+        "outputPath": "c:\\Users\\Filip\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,11 +103,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -121,6 +121,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[8.6.2, )"
@@ -149,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
+    "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\Reactivities\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\Filip\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\Filip\\Reactivities\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\Reactivities\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\Filip\\Reactivities\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,8 +234,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Application\\Application.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -269,14 +273,14 @@
         }
       }
     },
-    "C:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\Filip\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\Filip\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,8 +296,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj"
+              "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\Filip\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -308,6 +312,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[3.1.1, )"
             },
