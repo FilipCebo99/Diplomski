@@ -3,7 +3,7 @@ import { Segment, Grid, Icon } from 'semantic-ui-react'
 import { IActivity } from '../../../app/models/activity';
 import {format} from 'date-fns';
 
-export const ActivityDetailedInfo : React.FC<{activity: IActivity}> = ({activity}) => {
+const ActivityDetailedInfo : React.FC<{activity: IActivity}> = ({activity}) => {
 
     return (
       <Segment.Group>
@@ -45,3 +45,4 @@ export const ActivityDetailedInfo : React.FC<{activity: IActivity}> = ({activity
       </Segment.Group>
     );
 }
+export default ActivityDetailedInfo

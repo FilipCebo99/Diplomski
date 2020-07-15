@@ -41,7 +41,7 @@ const responseBody =(response: AxiosResponse ) => response.data;
 const sleep = (ms: number) =>(response: AxiosResponse) =>
  new Promise<AxiosResponse>(resolve => setTimeout(() => resolve(response),ms));
 
-const request ={ 
+const requests ={ 
     get: (url: string) => axios.get(url).then(sleep(1000)).then(responseBody),
     post:(url:string, body: {}) => axios.post(url,body).then(sleep(1000)).then(responseBody),
     put: (url: string, body: {}) => axios.put(url, body).then(sleep(1000)).then(responseBody),
@@ -49,19 +49,21 @@ const request ={
 }
 
 const Activities ={
-    list: () : Promise<IActivity[]>=> request.get('/activities'),
-    details: (id:string) => request.get(`/activities/${id}`),
-    create: (activity: IActivity) => request.post('/activities', activity),
-    update: (activity: IActivity) => request.put(`/activities/${activity.id}`, activity),
-    delete: (id:string) => request.del(`/activities/${id}`)
+    list: () : Promise<IActivity[]>=> requests.get('/activities'),
+    details: (id:string) => requests.get(`/activities/${id}`),
+    create: (activity: IActivity) => requests.post('/activities', activity),
+    update: (activity: IActivity) => requests.put(`/activities/${activity.id}`, activity),
+    delete: (id:string) => requests.del(`/activities/${id}`),
+    attend: (id: string) => requests.post(`/activities/${id}/attend`, {}),
+    unattend: (id: string) => requests.del (`/activities/${id}/attend`)
 
 
 };
 
 const User ={
-    current:(): Promise<IUser> => request.get('/user'),
-    login : (user: IUserFromValues): Promise<IUser> => request.post(`/user/login`, user),
-    register : (user: IUserFromValues): Promise<IUser> => request.post(`/user/register`, user)
+    current:(): Promise<IUser> => requests.get('/user'),
+    login : (user: IUserFromValues): Promise<IUser> => requests.post(`/user/login`, user),
+    register : (user: IUserFromValues): Promise<IUser> => requests.post(`/user/register`, user)
 
 }
 

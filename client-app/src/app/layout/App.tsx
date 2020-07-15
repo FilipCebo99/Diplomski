@@ -16,7 +16,7 @@ import NotFound from "./NotFound";
 import { ToastContainer } from "react-toastify";
 import LoginForm from "../../features/user/LoginForm";
 import { RootStoreContext } from "../stores/rootStore";
-import { LoadingComponent } from "./LoadingComponent";
+import  LoadingComponent  from "./LoadingComponent";
 import ModalContaier from "../common/modals/ModalContaier";
 
 const App: React.FC<RouteComponentProps> = ({ location }) => {
